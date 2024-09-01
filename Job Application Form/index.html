@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        hr{
+            border-top: 2px solid black;
+        }
+    </style>
+   
+    
+    <title>Job Application Form</title>
+</head>
+<body background="https://thewebaround.com/wp-content/uploads/2021/07/mitchell-luo-xREzOtWzDrQ-unsplash-1536x1024.jpg">
+    
+    <table width="40%" height="640px" align="center">
+        <form  enctype="multipart/form-data" action="#" method="post">
+            <tr align="center">
+                <caption>
+                    <p><h2>Job Application Form</h2></p>
+                    <hr>
+                </caption>
+            </tr>
+            <tr>
+                <td><label for="a"><b>Full Name</b></label></td>
+                <td>
+                    <input type="text" size="43" placeholder="Enter your name" id="a">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="b"><b>Job Title</b></label></td>
+                <td>
+                    <input type="text" size="43" placeholder="Enter your job title" id="b">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="c"><b>Current Company</b></label></td>
+                <td>
+                    <input type="text" size="43" placeholder="Enter your company name" id="c">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="d"><b>Contact Number</b></label></td>
+                <td>
+                    <select>
+                        <option value="+91">+91</option>
+                    </select>
+                    <input type="text" size="35" placeholder="Enter your contact number" id="d" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="e"><b>Email</b></label></td>
+                <td>
+                    <input type="text" size="43" placeholder="Enter your email" id="e">
+                </td>
+            </tr>
+            <tr>
+                <td><b>Work Status</b></td>
+                <td>
+                    <input type="radio" name="time" value="Time1">Full Time
+                    <input type="radio" name="time" value="Time2">Part Time
+                    <input type="radio" name="time" value="Time3">Per Diem
+                    <input type="radio" name="time" value="Time4">Others
+                </td>
+            </tr>
+            <tr>
+                <td><label for="f"><b>Salary</b></label></td>
+                <td>
+                    <input type="text" size="20" placeholder="Enter salary" id="f">
+                    <select>
+                        <option value="rupees">Rupees</option>
+                    </select>
+                    <select>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="g"><b>Current Location</b></label>
+                </td>
+                <td>
+                    <input type="text" size="43" placeholder="Enter current location" id="g">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <label for="h"> <b> Parmanent Address</b></label>
+                </td>
+                
+                <td>
+            <textarea name="address" rows="4" cols="40" placeholder="Enter Parmanent address" id="h"></textarea>
+        </td>
+            </tr>
+            <tr>
+                <td><b>Upload Resume</b></td>
+                <td>
+                    <input type="file"  name="upload_file" multiple accept=".jpg,.jpeg,.png">
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    
+                    <input type="submit" value="Submit">
+                </td>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            
+        </form>
+    </table>
+    <hr width="40%">
+</body>
+</html>
